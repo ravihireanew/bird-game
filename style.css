@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #70c5ce;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    width: 100%;
+    height: 100vh;
+    background: url('img/idyllic-mountain-landscape-with-fresh-green-meadows-and-blooming-wildflowers-idyllic-nature-countryside-view-rural-outdoor-natural-view-idyllic-banner-nature-panoramic-spring-summer-scenery-photo-remo.png') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bird {
+    width: 50px;
+    height: 50px;
+    background: url('img/png-clipart-flappy-bird-blue-fly-the-bird-game-bird-game-animals-removebg-preview.png') no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.pipe {
+    width: 100px;
+    background: green;
+    position: absolute;
+    right: 0;
+}
+
+.upper-pipe {
+    top: 0;
+}
+
+.lower-pipe {
+    bottom: 0;
+}
+
+#score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 2rem;
+    color: white;
+}
